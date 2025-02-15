@@ -17,6 +17,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
+
         setContent {
             AlarmAppTutorialTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
@@ -38,6 +40,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         modifier = modifier
     )
 }
+
 
 
 
